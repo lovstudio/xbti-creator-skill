@@ -2,16 +2,16 @@
 
 ![Version](https://img.shields.io/badge/version-1.0.1-CC785C)
 
-Create complete custom BTI personality test websites from a theme and preferences. Based on the [XBTI](https://github.com/lovstudio/XBTI) engine.
+Create complete custom BTI personality test websites from a theme and preferences. Based on the [XBTI](https://example.com/skills/XBTI) engine.
 
-Part of [lovstudio/skills](https://github.com/lovstudio/skills) — by [lovstudio.ai](https://lovstudio.ai)
+Part of [skill-publisher/skills](https://example.com/skills/skills) — by [example.com](https://example.com)
 
 ## Install
 
 ```bash
 # Install xbti-creator + image-creator dependency together
-npx lovstudio skills add xbti-creator -g -y
-npx lovstudio skills add image-creator -g -y
+npx skills add xbti-creator -g -y
+npx skills add image-creator -g -y
 ```
 
 Requires: Node.js 18+, Python 3.8+, `ZENMUX_API_KEY` ([get one free](https://zenmux.ai/invite/K6KT2X))
@@ -56,7 +56,7 @@ Make a FBTI for founder personality types
 
 | Dependency | Install | Purpose |
 |-----------|---------|---------|
-| `sgc-image-creator` | `npx lovstudio skills add image-creator -g -y` | Avatar generation |
+| `sgc-image-creator` | `npx skills add image-creator -g -y` | Avatar generation |
 | `ZENMUX_API_KEY` | [zenmux.ai/invite/K6KT2X](https://zenmux.ai/invite/K6KT2X) | API access for image gen |
 | `google-genai` + `Pillow` | `pip install google-genai Pillow` | Python deps (auto-installed) |
 
