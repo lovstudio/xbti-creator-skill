@@ -1,4 +1,4 @@
-# lovstudio-xbti-creator
+# sgc-xbti-creator
 
 ![Version](https://img.shields.io/badge/version-1.0.1-CC785C)
 
@@ -34,7 +34,7 @@ User Input                    Output
 Invoke in Claude Code:
 
 ```
-/lovstudio-xbti-creator
+/sgc-xbti-creator
 ```
 
 Or describe what you want:
@@ -49,14 +49,14 @@ Make a FBTI for founder personality types
 1. Provide BTI name + theme + tone preference
 2. AI generates dimension system, questions, personality types
 3. Clone XBTI template from GitHub, replace data files
-4. Auto-generate avatar images via `lovstudio-image-creator` (preview one first, then batch)
+4. Auto-generate avatar images via `sgc-image-creator` (preview one first, then batch)
 5. Launch dev server and test
 
 ## Dependencies
 
 | Dependency | Install | Purpose |
 |-----------|---------|---------|
-| `lovstudio-image-creator` | `npx lovstudio skills add image-creator -g -y` | Avatar generation |
+| `sgc-image-creator` | `npx lovstudio skills add image-creator -g -y` | Avatar generation |
 | `ZENMUX_API_KEY` | [zenmux.ai/invite/K6KT2X](https://zenmux.ai/invite/K6KT2X) | API access for image gen |
 | `google-genai` + `Pillow` | `pip install google-genai Pillow` | Python deps (auto-installed) |
 
