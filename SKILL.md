@@ -17,7 +17,7 @@ depends_on:
   - lov-branding-consistency
 metadata:
   author: contributors
-  version: "1.0.2"
+  version: "1.0.3"
   tags: bti personality-test generator xbti
 ---
 
@@ -62,7 +62,7 @@ command -v pnpm && echo "USE_PM=pnpm" || command -v bun && echo "USE_PM=bun" || 
 git --version
 
 # 4. image-creator skill
-npx skills add image-creator -g -y
+npx lovstudio skills add image-creator -g -y
 
 # 5. Zenmux API key
 [ -n "$ZENMUX_API_KEY" ] && echo "OK" || echo "MISSING"
@@ -75,7 +75,7 @@ python3 -c "import google.genai; from PIL import Image" 2>/dev/null && echo "OK"
 
 - `lov-image-creator` missing →
   ```bash
-  npx skills add image-creator -g -y
+  npx lovstudio skills add image-creator -g -y
   ```
 - Python deps missing →
   ```bash
